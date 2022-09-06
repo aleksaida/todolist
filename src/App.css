@@ -28,7 +28,8 @@ h1 {
 .container {
   display: flex;
   justify-content: center;
-}
+  padding: 5px;  
+ }
 
 .add {
   background: #4B8673;
