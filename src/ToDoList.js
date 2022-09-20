@@ -32,9 +32,9 @@ export class ToDoList extends Component {
         this.setState({todolist: listArray})
     }
 
-    deleteLi(item,index){
+    deleteLi(){
         let listArray=this.state.todolist;
-        listArray.splice(index,1);
+        listArray.splice(0,1);
         this.setState({todolist: listArray})
        
     }
